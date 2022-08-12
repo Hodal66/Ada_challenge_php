@@ -63,25 +63,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $submit = $_POST['send_btn'];
     if (!$name && !$password && !$email && !$username) {
         echo "Error All fields are required";
-    }
+    } else {
+
+
+
 ?>
 <div>
 
 </div>
-<table border=2>
-    <tr>
-        <th>Names</th>
-        <th>Username</th>
-        <th>Email</th>
-        <th>Password</th>
-    </tr>
-    <tr>
-        <td><?php echo $name; ?></td>
-        <td><?php echo $username ?></td>
-        <td><?php echo $email ?></td>
-        <td><?php echo $password  ?></td>
-    </tr>
-</table>
+<div class="table">
+    <table border=2>
+        <tr>
+            <th>Names</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Password</th>
+        </tr>
+        <tr>
+            <td><?php echo $name; ?></td>
+            <td><?php echo $username ?></td>
+            <td><?php echo $email ?></td>
+            <td><?php echo $password  ?></td>
+        </tr>
+    </table>
+</div>
 <?php
+    }
 }
 ?>

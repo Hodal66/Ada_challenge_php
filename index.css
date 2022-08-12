@@ -74,6 +74,24 @@ border:none;
 padding:0.4em;
 border-radius:5px;
 }
-.mytable{
-    background:rgb(75, 75, 182);
+.table{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+table{
+    border-collapse:collapse;
+    border: 4px inset white;
+    color:#fff;
+    padding:2em;
+}
+table th{
+    background-color: rebeccapurple;
+    padding:1em 2em;
+
+}
+table td{
+    background:rgb(92, 92, 201);
+   padding:1em;
 }
