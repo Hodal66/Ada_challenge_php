@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:aliceblue;
+    color: rgb(105, 98, 98);
+
+}
+form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: #fff;
+    margin:5% 35%;
+    border-radius: 1em;
+    font-size:12px;
+}
+.personal_detail{
+    font-size: 12px;
+    padding-bottom: 1em;
+
+}
+input{
+    width:100%;
+    margin-bottom: 1em;
+    margin-top: 0.2em;
+    border:1px solid #ccc;
+    border-radius: 0.2em;
+    padding:0.2em;
+}
+.first-content {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.first-content h2{
+    padding:0.5em;
+    color:rgb(61, 61, 174);
+    font-family: Helvetica;
+    font: size 1em;
+}
+.first-content p label{
+   
+    padding:1em 0em;
+}
+label{
+    color:rgb(71, 71, 156);
+}
+.checkbox-section{
+    display:flex;
+    
+}
+.checkbox-section #terms{
+    width:20px;
+}
+a{
+    text-decoration: none;
+}
+.alread-have-account{
+    display:flex;
+
+}
+.login_link{
+    margin-left: 0.6em;
+}
+input[type="submit"]{
+background-color: rgb(55, 55, 241);
+color: aliceblue;
+border:none;
+padding:0.4em;
+border-radius:5px;
+}
+.mytable{
+    background:rgb(75, 75, 182);
+}
